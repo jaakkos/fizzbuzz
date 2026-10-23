@@ -1,0 +1,12 @@
+{
+  "name": "fizzbuzz",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
