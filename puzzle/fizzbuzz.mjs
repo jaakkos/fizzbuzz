@@ -1,4 +1,8 @@
 export function fizzbuzz(limit) {
+  if (!Number.isInteger(limit) || limit < 0) {
+    throw new RangeError('limit must be a non-negative integer');
+  }
+
   const values = [];
 
   for (let number = 1; number <= limit; number += 1) {
