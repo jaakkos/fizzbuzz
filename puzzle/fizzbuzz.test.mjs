@@ -20,6 +20,10 @@ test('returns the classic FizzBuzz sequence from 1 through 15', () => {
   );
 });
 
+test('returns FizzBuzz at position 30', () => {
+  assert.ok(fizzbuzz(30).endsWith(',FizzBuzz'));
+});
+
 test('doubles a positive number', () => {
   assert.equal(double(2), 4);
 });
